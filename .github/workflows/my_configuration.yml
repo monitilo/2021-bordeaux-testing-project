@@ -1,7 +1,7 @@
 name: Run all tests
 
-on: 
-	[push, pull_request]
+on: [push, pull_request]
+
 jobs:
 	run-my_tests:
 		runs-on: ubuntu-latest
